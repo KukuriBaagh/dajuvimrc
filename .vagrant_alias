@@ -1,0 +1,7 @@
+alias vst="vagrant status"
+alias vu="vagrant up"
+alias vbn="vagrant init"
+alias vh="vagrant halt"
+alias vx="vagrant destory"
+alias vvm="vagrant box list"
+
