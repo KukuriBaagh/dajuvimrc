@@ -15,6 +15,11 @@ set ttyfast
 set mouse=a
 set nocompatible              " be iMproved, required
 filetype off                  " required
+set wildmenu
+" There are certain files that we would never want to edit with Vim.
+" Wildmenu will ignore files with these extensions.
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
+
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
